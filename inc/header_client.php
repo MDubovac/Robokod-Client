@@ -33,42 +33,37 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item mx-3">
-                        <a class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/customers/adminPanel.php">
+                        <a class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>index.php">
                             О нама
                         </a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/customers/adminPanel.php">
+                        <a class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/gallery.php">
                             Галерија
                         </a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/customers/adminPanel.php">
-                            Центар
-                        </a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/customers/adminPanel.php">
+                        <a class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/contact.php">
                             Контакт
                         </a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/customers/adminPanel.php">
-                            Курсеви
+                        <a class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/comb_course.php">
+                            Програми
                         </a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/customers/adminPanel.php">
+                        <a class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/nis.php">
                             Ниш
                         </a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/customers/adminPanel.php">
+                        <a class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/leskovac.php">
                             Лесковац
                         </a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/customers/adminPanel.php">
+                        <a class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/vranje.php">
                             Врање
                         </a>
                     </li>
@@ -87,12 +82,12 @@
                               </li>
                           <?php } else { ?>
                             <li class="nav-item">
-                                  <a class="btn btn-primary mx-2 my-1" aria-current="page" href="<?php echo APP_URL; ?>pages/login.php">
+                                  <a class="btn btn-primary mx-2 my-1" aria-current="page" href="https://www.facebook.com/robokod.robokod/">
                                       <i class="fa fa-facebook"></i>
                                   </a>
                               </li>
                               <li class="nav-item">
-                                  <a class="btn btn-danger mx-2 my-1" aria-current="page" href="<?php echo APP_URL; ?>pages/login.php">
+                                  <a class="btn btn-danger mx-2 my-1" aria-current="page" href="https://www.instagram.com/robokodnis/">
                                       <i class="fa fa-instagram"></i>
                                   </a>
                               </li>

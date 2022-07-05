@@ -49,18 +49,34 @@
     <div class="p-4 shadow rounded-3" style="background-color: hsl(0, 0%, 94%);">
       <h2>Ко смо ми?</h2>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio voluptatibus, perferendis delectus saepe iusto
-        voluptate impedit nulla aliquid harum aperiam quibusdam excepturi cupiditate vitae velit culpa vel laudantium
-        dignissimos cum error necessitatibus non! Aperiam vitae ad, modi nulla dolor natus quos perferendis vel dolore
-        minus doloribus, asperiores ipsum vero eaque nostrum est voluptatem id obcaecati. Placeat similique velit
-        ratione eveniet, consequuntur nesciunt ad illum laudantium ab sint dolor odio quos reiciendis autem. Molestiae,
-        mollitia veniam repellat nihil incidunt ipsam enim temporibus quam, ea eligendi vero perspiciatis voluptas?
-        Dolore tenetur iste, quas accusantium atque nam repellendus, saepe, repudiandae cumque provident adipisci!
+        <b>
+          Робокод у више градова обучава више стотина основаца у областима технике, <br> информатике и рачунарства.
+        </b>
+      </p>
+      <p>
+        Школа Робокод нема ограничено трајање курсева, већ се свако дете током стицања знања вештина прати и усмерава.
+        Сваке године почетком лета се организује и чувена Робокод Олимпијада, као такмичење у више разних дисциплина, а све дипломе, медаље
+        и сви пехари се тад поштено заслуже.
       </p>
 
-      <button type="button" class="btn btn-primary">
+      <p>
+        Рачунарство је у основи роботике и програмирања, а Робокод има нове и брзе рачунаре. Робокод има и огроман број разних електронских уређаја
+        , компонентни, и др.
+      </p>
+
+      <p>
+        Наши робокодовци већ након првих часова се самостално користе уређајима, јер стално изучавају хардвер и софтвер кроз разне практичне вежбе.
+        Предавачи су најбољи инжењери и програмери Електронског, Машинског и др. факултета у Нишу.
+      </p>
+
+      <p>
+        Робокод је без спонзорисаних реклама стекао славу водеће школе роботике и програмирања. Осим најниже месечне чланарине, Робокод је посебан јер
+        ради непрекидно целе године, и организује увек надокнаде свих пропуштених часова.
+      </p>
+
+      <a href="./pages/contact.php" type="button" class="btn btn-primary">
         Пишите нам!
-      </button>
+      </a>
     </div>
 
   </div>
@@ -69,11 +85,15 @@
       <h2>Контакт</h2>
       <div class="col-md-4 col-lg-3 mx-4 col-xl-3 mb-md-0 mb-4">
         <!-- Links -->
-        <p><i class="fa fa-home me-3"></i> ....</p>
-        <p>
-          <i class="fa fa-envelope me-3"></i>
-          ....</ </p>
-        <p><i class="fa fa-phone me-3"></i> ....</< /p>
+        <div class="d-flex">
+          <i class="fa fa-envelope me-3 my-1"></i>
+          <p>robokod.nis@gmail.com</p>
+        </div>
+        
+        <div class="d-flex">
+          <i class="fa fa-phone me-3 my-1"></i>
+          <p>065/3235297</p>
+        </div>
       </div>
     </div>
 
@@ -94,50 +114,41 @@
   </h1>
   <div class="row">
     <div class="col-md-3">
-      <div class="card shadow my-2 mx-auto" style="width: 18rem;">
-        <img class="card-img-top" src="./css/1.png" alt="Card image cap">
+      <div class="card shadow my-2 mx-auto" style="width: 18rem; height: 18rem">
+        <img class="card-img-top" src="./css/comb.jpg" height="60%">
         <div class="card-body">
           <h5 class="card-title">Комбиновани курс</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-primary">Сазнај више!</a>
+          <a href="<?php echo APP_URL ?>/pages/comb_course.php" class="btn btn-primary">Сазнај више!</a>
         </div>
       </div>
     </div>
     <div class="col-md-3">
-      <div class="card shadow my-2 mx-auto" style="width: 18rem;">
-        <img class="card-img-top" src="./css/1.png" alt="Card image cap">
+      <div class="card shadow my-2 mx-auto" style="width: 18rem; height: 18rem">
+        <img class="card-img-top" src="./css/robot.jpg" height="60%">
         <div class="card-body">
           <h5 class="card-title">Роботика</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-primary">Сазнај више!</a>
+          <a href="<?php echo APP_URL ?>/pages/robotics.php" class="btn btn-primary">Сазнај више!</a>
         </div>
       </div>
     </div>
     <div class="col-md-3">
-      <div class="card shadow my-2 mx-auto" style="width: 18rem;">
-        <img class="card-img-top" src="./css/1.png" alt="Card image cap">
+      <div class="card shadow my-2 mx-auto" style="width: 18rem; height: 18rem">
+        <img class="card-img-top" src="./css/game-dev.jpg" height="60%">
         <div class="card-body">
-          <h5 class="card-title">Програмирање</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-primary">Сазнај више!</a>
+          <h5 class="card-title">Програмирање игара</h5>
+          <a href="<?php echo APP_URL ?>/pages/game_dev.php" class="btn btn-primary">Сазнај више!</a>
         </div>
       </div>
     </div>
     <div class="col-md-3">
-      <div class="card shadow my-2 mx-auto" style="width: 18rem;">
-        <img class="card-img-top" src="./css/1.png" alt="Card image cap">
+      <div class="card shadow my-2 mx-auto" style="width: 18rem; height: 18rem">
+        <img class="card-img-top" src="./css/programming.jpg" height="60%">
         <div class="card-body">
-          <h5 class="card-title">Развој видео игара</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-primary">Сазнај више!</a>
+          <h5 class="card-title">Системско рограмирање</h5>
+          <a href="<?php echo APP_URL ?>/pages/python.php" class="btn btn-primary">Сазнај више!</a>
         </div>
       </div>
     </div>
-    
   </div>
 </div>
 

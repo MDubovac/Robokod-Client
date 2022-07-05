@@ -1,9 +1,10 @@
 <?php
-    include_once("../inc/header.php");
+    $view = "Пријава";
+    include_once("../inc/header_client.php");
     include_once("../scripts/login_script.php");
 ?>
 
-<div class="container my-3">
+<div class="container my-5">
     <h1 class="mb-4">Prijava</h1>
     <form action="login.php" method="POST">
         <div class="form-group my-2">
@@ -35,5 +36,5 @@
 </div>
 
 <?php
-    include_once("../inc/footer.php");
+    include_once("../inc/footer_client.php");
 ?>

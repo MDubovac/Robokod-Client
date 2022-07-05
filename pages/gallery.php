@@ -99,6 +99,7 @@ function showSlides(n) {
 
 </script>
 
+
 <?php
-    include '../inc/footer_client.php'; 
+    include_once("../inc/footer_client.php");
 ?>

@@ -1,9 +1,7 @@
-    <!-- Footer -->
+<!-- Footer -->
 <footer class="text-center text-lg-start bg-light text-muted">
   <!-- Section: Social media -->
-  <section
-    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
-  >
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
     <!-- Left -->
     <div class="me-5 d-none d-lg-block">
       <span>Пронађите нас на друштвеним мрежама:</span>
@@ -50,16 +48,16 @@
             Локације
           </h6>
           <p>
-            <a href="#!" class="text-reset">Ниш, Центар</a>
+            <a href="<?php echo APP_URL; ?>pages/nis.php" class="text-reset">Ниш, Центар</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Ниш, Меркатор</a>
+            <a href="<?php echo APP_URL; ?>pages/nis.php" class="text-reset">Ниш, Меркатор</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Лесковац</a>
+            <a href="<?php echo APP_URL; ?>pages/leskovac.php" class="text-reset">Лесковац</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Врање</a>
+            <a href="<?php echo APP_URL; ?>pages/vranje.php" class="text-reset">Врање</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -71,16 +69,16 @@
             Странице
           </h6>
           <p>
-            <a href="#!" class="text-reset">О нама</a>
+            <a href="<?php echo APP_URL; ?>pages/index.php" class="text-reset">О нама</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Галерија</a>
+            <a href="<?php echo APP_URL; ?>pages/gallery.php" class="text-reset">Галерија</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Контакт</a>
+            <a href="<?php echo APP_URL; ?>pages/contact.php" class="text-reset">Контакт</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Пријава</a>
+            <a href="<?php echo APP_URL; ?>pages/login.php" class="text-reset">Пријава</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -91,12 +89,15 @@
           <h6 class="text-uppercase fw-bold mb-4">
             Kontakt
           </h6>
-          <p><i class="fa fa-home me-3"></i> ....</p>
-          <p>
-            <i class="fa fa-envelope me-3"></i>
-            ....</
-          </p>
-          <p><i class="fa fa-phone me-3"></i> ....</</p>
+          <div class="d-flex">
+            <i class="fa fa-envelope me-3 my-1"></i>
+            <p>robokod.nis@gmail.com</p>
+          </div>
+        
+          <div class="d-flex">
+            <i class="fa fa-phone me-3 my-1"></i>
+            <p>065/3235297</p>
+          </div>
         </div>
         <!-- Grid column -->
       </div>
@@ -112,7 +113,9 @@
   <!-- Copyright -->
 </footer>
 <!-- Footer -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <script src="../javascript/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="../javascript/main.js"></script>
 </body>
+
 </html>
