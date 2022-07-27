@@ -1,5 +1,5 @@
 <?php
-    $view = "Почетна";
+    $view = "О нама";
     include './inc/header_client.php'; ?>
 <style>
   <?php include 'css/style.css';
