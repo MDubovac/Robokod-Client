@@ -167,3 +167,20 @@
         margin: 0 15%;
     }
 }
+
+#rkc {
+  background-color: greenyellow;
+  color: black;
+}
+#rkn {
+  background-color: orange;
+  color: black;
+}
+#rkl {
+  background-color: lightblue;
+  color: black;
+}
+#rkv {
+  background-color: yellow;
+  color: black;
+}

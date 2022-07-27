@@ -5,11 +5,30 @@
   <?php include 'css/style.css';
   ?>
 </style>
+<!-- Landing page -->
+<div class="container">
+<div class="row mt-5">
+  <div class="col-md-6">
+    <h1>Добродошли у Робокод!</h1>
+    <h3>Центар за технолошко образовање младих.</h3>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ullam ut, cumque quibusdam molestiae quia accusantium. 
+    Necessitatibus ratione iste cumque, nesciunt at illo, molestiae, vitae vero ex eaque possimus unde.
 
+    <div class="d-flex my-4 ">
+      <a href="" class="btn btn-outline-primary">
+        Сазнајте више!
+      </a>
+      <a href="" class="btn btn-primary mx-3">
+        Јавите нам се!
+      </a>
+    </div>
+    </div>
+  <div class="col-md-6">
+    <img src="./css/programming.jpg" alt="" width=100%>
+  </div>
+</div>
 
-<!-- Banner -->
 <div class="row my-3 mx-2">
-
   <div class="col-md-3 my-2">
     <div class="p-4 shadow rounded-3" style="background-color: hsl(0, 0%, 94%);">
       <h2>Вести</h2>
@@ -152,7 +171,7 @@
   </div>
 </div>
 
-<!-- Lokacije -->
+<!-- Lokacije 
 <div class="container my-5 py-5">
   <h1 class="text-center">
     <i class="fas fa-map"></i>
@@ -186,6 +205,7 @@
         referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
+</div> -->
 </div>
 
 <?php

@@ -38,33 +38,28 @@
                         </a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/gallery.php">
-                            Галерија
+                        <a class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/onama.php">
+                            Локације
                         </a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/contact.php">
-                            Контакт
+                        <a id="rkc" class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/comb_course.php">
+                            Робокод Центар
                         </a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/comb_course.php">
-                            Програми
+                        <a id="rkn" class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/contact.php">
+                        Робокод Ниш
                         </a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/nis.php">
-                            Ниш
+                        <a id="rkl" class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/contact.php">
+                        Робокод Лесковац
                         </a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/leskovac.php">
-                            Лесковац
-                        </a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/vranje.php">
-                            Врање
+                        <a id="rkv" class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/contact.php">
+                        Робокод Врање
                         </a>
                     </li>
                   </ul>
@@ -81,21 +76,7 @@
                                   </a>
                               </li>
                           <?php } else { ?>
-                            <li class="nav-item">
-                                  <a class="btn btn-primary mx-2 my-1" aria-current="page" href="https://www.facebook.com/robokod.robokod/">
-                                      <i class="fa fa-facebook"></i>
-                                  </a>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="btn btn-danger mx-2 my-1" aria-current="page" href="https://www.instagram.com/robokodnis/">
-                                      <i class="fa fa-instagram"></i>
-                                  </a>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="btn btn-outline-light mx-2 my-1" aria-current="page" href="<?php echo APP_URL; ?>pages/login.php">
-                                      <i class="fa fa-user"></i>
-                                  </a>
-                              </li>
+                           
                           <?php } ?>
                   </ul>
               </div>

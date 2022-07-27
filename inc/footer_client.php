@@ -6,7 +6,6 @@
     <div class="me-5 d-none d-lg-block">
       <span>Пронађите нас на друштвеним мрежама:</span>
     </div>
-    <!-- Left -->
 
     <!-- Right -->
     <div>
@@ -76,9 +75,6 @@
           </p>
           <p>
             <a href="<?php echo APP_URL; ?>pages/contact.php" class="text-reset">Контакт</a>
-          </p>
-          <p>
-            <a href="<?php echo APP_URL; ?>pages/login.php" class="text-reset">Пријава</a>
           </p>
         </div>
         <!-- Grid column -->

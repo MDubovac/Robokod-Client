@@ -9,7 +9,7 @@
 </style>
 
 <div class="container my-5">
-    <h1>Контакт</h1>
+    <h1>Пишите нам</h1>
     <form action="contact.php" method="POST">
         <div class="row">
             <div class="form-group my-2 col-md-6">
