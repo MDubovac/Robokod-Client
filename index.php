@@ -1,30 +1,48 @@
 <?php
-    $view = "О нама";
-    include './inc/header_client.php'; ?>
+$view = "О нама";
+include './inc/header_client.php'; ?>
 <style>
   <?php include 'css/style.css';
   ?>
 </style>
 <!-- Landing page -->
 <div class="container">
-<div class="row mt-5">
-  <div class="col-md-6">
-    <h1>Добродошли у Робокод!</h1>
-    <h3>Центар за технолошко образовање младих.</h3>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ullam ut, cumque quibusdam molestiae quia accusantium. 
-    Necessitatibus ratione iste cumque, nesciunt at illo, molestiae, vitae vero ex eaque possimus unde.
+  <div class="row my-5 py-5" height="50vh">
+    <div class="col-md-6">
+      <h1>Добродошли у Робокод!</h1>
+      <h3>Центар за технолошко образовање младих.</h3>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ullam ut, cumque quibusdam molestiae quia accusantium.
+      Necessitatibus ratione iste cumque, nesciunt at illo, molestiae, vitae vero ex eaque possimus unde.
 
-    <div class="d-flex my-4 ">
-      <a href="" class="btn btn-outline-primary">
-        Сазнајте више!
-      </a>
-      <a href="" class="btn btn-primary mx-3">
-        Јавите нам се!
-      </a>
+      <div class="d-flex my-4">
+        <a href="" class="btn btn-outline-primary">
+          Сазнајте више!
+        </a>
+        <a href="" class="btn btn-primary mx-3">
+          Јавите нам се!
+        </a>
+      </div>
     </div>
+    <div class="col-md-6">
+      <img src="./css/programming.jpg" alt="" width=100%>
     </div>
-  <div class="col-md-6">
-    <img src="./css/programming.jpg" alt="" width=100%>
+  </div>
+</div>
+
+<div class="findus bg-dark text-light my-5">
+  <div class="container">
+    <div class="row py-5">
+      <div class="col-md-6">
+        <h3>Пронађите нас на друштвеним мрежама</h3>
+      </div>
+      <div class="col-md-6">
+        <h2 class="text-end">
+          <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-facebook"></i></a>
+          <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-instagram"></i></a>
+          <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-youtube"></i></a>
+</h2>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -108,7 +126,7 @@
           <i class="fa fa-envelope me-3 my-1"></i>
           <p>robokod.nis@gmail.com</p>
         </div>
-        
+
         <div class="d-flex">
           <i class="fa fa-phone me-3 my-1"></i>
           <p>065/3235297</p>
@@ -209,5 +227,5 @@
 </div>
 
 <?php
-    include_once("./inc/footer_client.php");
+include_once("./inc/footer_client.php");
 ?>

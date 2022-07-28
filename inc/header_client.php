@@ -43,7 +43,7 @@ include_once(dirname(dirname(__FILE__)) . "/config/db.php");
                         </a>
                     </li>
                     <li class="nav-item my-1">
-                        <a id="basic" class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/onama.php">
+                        <a id="basic" class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/locations/locations.php">
                             Локације
                         </a>
                     </li>
