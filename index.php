@@ -1,5 +1,5 @@
 <?php
-$view = "О нама";
+$view = "Почетна";
 include './inc/header_client.php'; ?>
 <style>
   <?php include 'css/style.css';
@@ -7,13 +7,16 @@ include './inc/header_client.php'; ?>
 </style>
 <!-- Landing page -->
 <div class="container">
-  <div class="row my-5 py-5" height="50vh">
-    <div class="col-md-6">
+  <div class="row">
+    <div class="col-md-6" id="banner-text">
       <h1>Добродошли у Робокод!</h1>
-      <h3>Центар за технолошко образовање младих.</h3>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ullam ut, cumque quibusdam molestiae quia accusantium.
-      Necessitatibus ratione iste cumque, nesciunt at illo, molestiae, vitae vero ex eaque possimus unde.
+      <h4>Центар за технолошко образовање деце.</h4>
+      <p>
 
+      Робокод је највећа школа робоике и програмирања на југу  Србије.
+      У више градова обучава се више стотина основаца у областима технике, информатике и рачунарства.
+
+    </p>
       <div class="d-flex my-4">
         <a href="" class="btn btn-outline-primary">
           Сазнајте више!
@@ -24,7 +27,7 @@ include './inc/header_client.php'; ?>
       </div>
     </div>
     <div class="col-md-6">
-      <img src="./css/programming.jpg" alt="" width=100%>
+      <img src="./css/logo.jpg" class="mx-auto" alt="" width=90%>
     </div>
   </div>
 </div>
@@ -40,49 +43,36 @@ include './inc/header_client.php'; ?>
           <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-facebook"></i></a>
           <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-instagram"></i></a>
           <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-youtube"></i></a>
-</h2>
+        </h2>
       </div>
     </div>
   </div>
 </div>
 
-<div class="row my-3 mx-2">
-  <div class="col-md-3 my-2">
-    <div class="p-4 shadow rounded-3" style="background-color: hsl(0, 0%, 94%);">
-      <h2>Вести</h2>
-      <div class="list-group">
-        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-          <div class="d-flex w-100 justify-content-between">
-            <h5 class="mb-1">Vest 1</h5>
-            <small>Datum ovde</small>
-          </div>
-          <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
-          </p>
-          <small>Donec id elit non mi porta.</small>
-        </a>
-        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-          <div class="d-flex w-100 justify-content-between">
-            <h5 class="mb-1">Vest 2</h5>
-            <small class="text-muted">Datum ovde</small>
-          </div>
-          <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
-          </p>
-          <small class="text-muted">Donec id elit non mi porta.</small>
-        </a>
-        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-          <div class="d-flex w-100 justify-content-between">
-            <h5 class="mb-1">Vest 3</h5>
-            <small class="text-muted">Datum ovde</small>
-          </div>
-          <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
-          </p>
-          <small class="text-muted">Donec id elit non mi porta.</small>
-        </a>
-      </div>
-    </div>
-
+<div class="container-fluid">
+<div class="row">
+  <div class="col-md-3">
+    <img src="./css/vuk2.jpg" width="100%" height="500px">
   </div>
-  <div class="col-md-6 text-center my-2">
+  <div class="col-md-6">
+    <img src="./css/14..jpg" width="100%" height="500px">
+  </div>
+  <div class="col-md-3">
+    <img src="./css/vuk1.jpg" width="100%" height="500px">
+  </div>
+</div>
+</div>
+
+<div class="container my-4">
+  <div class="row">
+    <div class="col-md-12">
+      <img src="./css/FB_IMG_1635242866260.jpg" width="100%">
+    </div>
+  </div>
+</div>
+
+<div class="row my-3 mx-2">
+  <div class="col-md-9 text-center my-2">
     <div class="p-4 shadow rounded-3" style="background-color: hsl(0, 0%, 94%);">
       <h2>Ко смо ми?</h2>
       <p>
@@ -134,11 +124,12 @@ include './inc/header_client.php'; ?>
       </div>
     </div>
 
-    <div class="my-2 p-4 d-flex shadow rounded-3" style="background-color: hsl(0, 0%, 94%);">
-      <h4>Документи</h4>
-    </div>
     <div class="my-2 p-4 shadow rounded-3" style="background-color: hsl(0, 0%, 94%);">
-      <h4>Програми</h4>
+      <h4>Документи</h4>
+      <h5>
+        <i class="fa fa-download"></i>
+        <a href="./css/flajer.jpg" download>Преузми флајер</a>
+      </h5>
     </div>
   </div>
 </div>
@@ -152,7 +143,7 @@ include './inc/header_client.php'; ?>
   <div class="row">
     <div class="col-md-3">
       <div class="card shadow my-2 mx-auto" style="width: 18rem; height: 18rem">
-        <img class="card-img-top" src="./css/comb.jpg" height="60%">
+        <img class="card-img-top" src="./css/44..jpg" height="60%">
         <div class="card-body">
           <h5 class="card-title">Комбиновани курс</h5>
           <a href="<?php echo APP_URL ?>/pages/comb_course.php" class="btn btn-primary">Сазнај више!</a>
@@ -161,7 +152,7 @@ include './inc/header_client.php'; ?>
     </div>
     <div class="col-md-3">
       <div class="card shadow my-2 mx-auto" style="width: 18rem; height: 18rem">
-        <img class="card-img-top" src="./css/robot.jpg" height="60%">
+        <img class="card-img-top" src="./css/rob.jpg" height="60%">
         <div class="card-body">
           <h5 class="card-title">Роботика</h5>
           <a href="<?php echo APP_URL ?>/pages/robotics.php" class="btn btn-primary">Сазнај више!</a>
@@ -170,7 +161,7 @@ include './inc/header_client.php'; ?>
     </div>
     <div class="col-md-3">
       <div class="card shadow my-2 mx-auto" style="width: 18rem; height: 18rem">
-        <img class="card-img-top" src="./css/game-dev.jpg" height="60%">
+        <img class="card-img-top" src="./css/vdigre.jpg" height="60%">
         <div class="card-body">
           <h5 class="card-title">Програмирање игара</h5>
           <a href="<?php echo APP_URL ?>/pages/game_dev.php" class="btn btn-primary">Сазнај више!</a>
@@ -189,41 +180,11 @@ include './inc/header_client.php'; ?>
   </div>
 </div>
 
-<!-- Lokacije 
-<div class="container my-5 py-5">
-  <h1 class="text-center">
-    <i class="fas fa-map"></i>
-    Локације
-  </h1>
-  <div class="row">
-    <div class="col-md-6 my-2">
-      <iframe class="shadow"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1451.5177361700914!2d21.896758700617845!3d43.31351685858711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4755b0af8a2f8179%3A0xa7ca98df4cfde29f!2sEpiskopska%2036%2C%20Ni%C5%A1!5e0!3m2!1ssr!2srs!4v1656598481178!5m2!1ssr!2srs"
-        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    <div class="col-md-6 my-2">
-      <iframe class="shadow"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2902.584710029802!2d21.92336361579259!3d43.32295228174012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4755b0ebf92acde3%3A0xeabac131ae2461a9!2sRoda%20centar!5e0!3m2!1ssr!2srs!4v1656598536420!5m2!1ssr!2srs"
-        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-6 my-2">
-      <iframe class="shadow"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2918.0446718386065!2d21.946932315785443!3d42.99839390254182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47559d4d978995c7%3A0x2fa1b4acff995dfb!2z0KHRgtC10L_QtSDQodGC0LXQv9Cw0L3QvtCy0LjRm9CwIDgsINCb0LXRgdC60L7QstCw0YY!5e0!3m2!1ssr!2srs!4v1656598598684!5m2!1ssr!2srs"
-        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    <div class="col-md-6 my-2">
-      <iframe class="shadow"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2939.2697175316785!2d21.894563715775444!3d42.54956543110471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13551f84c9288257%3A0x7e9388714582049a!2z0JPQtdC90LXRgNCw0LvQsCDQkdC10LvQuNC80LDRgNC60L7QstC40ZvQsCAyMywg0JLRgNCw0ZrQtQ!5e0!3m2!1ssr!2srs!4v1656598658250!5m2!1ssr!2srs"
-        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  </div>
-</div> -->
+<!-- Olimpijada -->
+
+
+
+
 </div>
 
 <?php

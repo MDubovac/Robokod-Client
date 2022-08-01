@@ -1,4 +1,8 @@
 <!-- Footer -->
+<style>
+  <?php include 'css/style.css';
+  ?>
+</style>
 <footer class="text-center text-lg-start bg-light text-muted">
   <!-- Section: Social media -->
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
@@ -32,10 +36,10 @@
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <!-- Content -->
           <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-robot mx-2"></i>РОБОКОД
+            РОБОКОД
           </h6>
           <p>
-            LOGO
+            <img src="<?php echo APP_URL; ?>css/logo.jpg" width="50%" alt="logo">
           </p>
         </div>
         <!-- Grid column -->

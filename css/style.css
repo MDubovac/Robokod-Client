@@ -227,6 +227,7 @@ nav > li> a {
   background-color: orange;
 }
 
+
 #leskovac {
   height: 100%;
   background-color: lightblue;
@@ -235,4 +236,14 @@ nav > li> a {
 #vranje {
   height: 100%;
   background-color: yellow;
+}
+
+#banner-text {
+  padding: 15% 0;
+}
+
+@media only screen and (max-width: 740px) {
+  #banner-text {
+    padding: 3% 6%;
+  }
 }

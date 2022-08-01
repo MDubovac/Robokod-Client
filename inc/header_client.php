@@ -39,6 +39,11 @@ include_once(dirname(dirname(__FILE__)) . "/config/db.php");
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item my-1">
                         <a id="basic" class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>index.php">
+                            Почетна
+                        </a>
+                    </li>
+                    <li class="nav-item my-1">
+                        <a id="basic" class="nav-link" aria-current="page" href="<?php echo APP_URL; ?>pages/about.php">
                             О нама
                         </a>
                     </li>
